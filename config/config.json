@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "weather-environment-canada-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/weatherEnvironmentCanada/WeatherEnvironmentCanadaWebPart.js",
+          "manifest": "./src/webparts/weatherEnvironmentCanada/WeatherEnvironmentCanadaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WeatherEnvironmentCanadaWebPartStrings": "lib/webparts/weatherEnvironmentCanada/loc/{locale}.js"
+  }
+}
